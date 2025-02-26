@@ -18,7 +18,7 @@
 
 <body>
         <?php
-            include "hfile.php";
+            include "TEST.php";
         ?>
 
         <section class="sc">
@@ -54,7 +54,7 @@
         <hr>
         <!--FOOTER-->
 
-        <?php include 'footer.html'; ?>
+        <?php include 'footer.php'; ?>
 </body>
 </html>
     

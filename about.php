@@ -18,13 +18,13 @@
 
 <body>
 <?php
-    include "hfile.php";
+    include "TEST2.php";
 ?>
     <hr>
 
     <div class="container bg-blue">
         <div class="Forimg">
-            <img src="image/Home logo.png" class="img-fluid" height="100px" width="200px">
+            <img src="IMAGES/Home logo.png" class="img-fluid" height="100px" width="200px">
         </div>
 
         <div class="row d-flex">
@@ -48,7 +48,7 @@
     </div>
     <!--FOOTER-->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'footer.php'; ?>
     <hr>
 </body>
 

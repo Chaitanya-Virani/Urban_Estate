@@ -1,0 +1,68 @@
+<?php include 'TEST.php';?>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="postforseel.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="icon" href="image/Navy Blue Urban Modern Real Estate Logo (1).png" class="img-fluid">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 mt-3 sell">
+                    <P>Sell or Rent Your Property<br>
+                        <spam>Faster</spam> with Urban Estate.com
+                    </P>
+                    <div>
+                        <img src="IMAGES/psf.gif" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-4 mt-5">
+                    <form method="POST">
+                        <div class=" mt-5 box">
+                            <p class="a">Start Posting Your Property It's Free!</p>
+                            <p class="b">Add basic details</p>
+
+                            <div class="sr"> <!--SR means sell or rent -->
+                                <p>You're are looking to...</p>
+                                <button type="button">sell</button>
+                                <button type="button">Rent/Lease</button>
+                            </div>
+
+                            <div class="sct">
+                                <p>And it's a</p>
+                                <input type="radio" name="property_type" id="residential_radio" value="residential">
+                                <label for="residential_radio">Residential</label>
+                                <input type="radio" name="property_type" id="commercial_radio" value="commercial">
+                                <label for="commercial_radio">Commercial</label>
+                                <div>
+                                    <button type="button">Flat/Appartment</button>
+                                    <button type="button">Indenpendent House/Villa</button>
+                                    <button type="button">Indenpendent /Bulider Flor</button>
+                                    <button type="button">Plot/Fram</button>
+                                </div>
+                                <spam>
+                                    <p>Your Contact Details for Buyer to reach you!</p>
+                                    <input type="text" placeholder="Phone Numebr">
+                                </spam>
+                            </div>
+                            <button type="submit" class="btn bt btn-primary">Start Now</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </body>
+
+</html>

@@ -1,3 +1,5 @@
+/* hfile.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,8 +8,7 @@ body {
 hr {
     border: 1px solid #ccc;
     margin: 20px 0;
-    opacity: 0.05 !important;
-    /* Adjust the opacity value (0 to 1) as needed */
+    opacity: 0.05 !important; /* Adjust the opacity value (0 to 1) as needed */
 }
 
 .menu_bar {
@@ -18,10 +19,9 @@ hr {
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
-    
-    
 }
-.menu_bar img{
+
+.menu_bar img {
     margin-top: 0px;
     margin-bottom: 12px;
 }
@@ -30,10 +30,7 @@ hr {
     list-style: none;
     display: flex;
     padding-top: 20px;
-    @font-face {
-        font-family: 'CustomFont';
-        src: url('Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
-    }
+    font-family: 'CustomFont';
 }
 
 .menu_bar ul li {
@@ -59,11 +56,6 @@ hr {
     top: 70%;
     z-index: 100; /* Set a higher z-index value */
     background-color: rgb(255, 255, 255);
-    @font-face {
-        font-family: 'CustomFont';
-        src: url('Josefin_Sans/static/JosefinSans-SemiBold.ttf') format('truetype');
-    }
-    
 }
 
 .menu_bar ul li:hover .dropdown__menu {
@@ -81,7 +73,7 @@ hr {
     padding: 10px;
 }
 
-.DP{
+.DP {
     display: none;
     position: absolute;
     right: 0;
@@ -89,11 +81,6 @@ hr {
     top: 70%;
     z-index: 900; /* Set a higher z-index value */
     background-color: rgb(255, 255, 255);
-    @font-face {
-        font-family: 'CustomFont';
-        src: url('Josefin_Sans/static/JosefinSans-SemiBold.ttf') format('truetype');
-    }
-    
 }
 
 .menu_bar ul li:hover .DP {
@@ -110,4 +97,27 @@ hr {
     width: 150px;
     padding: 8px;
     right: 100;
+}
+
+/* Add the search bar styles */
+.search-bar {
+    display: none; /* Hide the search bar initially */
+    position: absolute;
+    top: 100%; /* Position it just below the search icon */
+    left: 0;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Adjust input box styling */
+.sss {
+    width: 150px;
+    height: 30px; 
+    border: 0.5px solid beige; /* Override any conflicting styles */
+    background-color: beige;
+    padding-top: 5px;
+    color: black;
+}
+.search-bar button{
+    background-color: black;
 }

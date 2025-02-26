@@ -1,4 +1,4 @@
-.ftin p {
+/*.ftin p {
     font-family: "Lato", sans-serif;
     font-size: medium;
     font-weight: 500;
@@ -22,10 +22,10 @@
 }
 
 .ftin ul li {
-    padding-right: 10px; /* Adjust as needed */
+    padding-right: 10px; /* Adjust as needed 
 }
 
-.container-fluid a {
+.container-fluid a{
     text-decoration: none;
     color: black;
 }
@@ -53,4 +53,116 @@
 
 .set img {
     margin-right: 20px;
+}*/
+.f1 img{
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.p1{
+    font-family: "josefin Sans",sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 8px;
+    color:  black;
+    margin-top: 5px;
+}
+
+.Mn h6 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Cp h6 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer-paragraph {
+    font-family: "josefin Sans",sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    padding-left: 65px;
+    color:  black;
+    margin-top: 5px;
+}
+
+
+.SM h6 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Mn ul {
+    list-style: none;
+}
+
+.Mn ul a {
+    text-decoration: none;
+    color: rgb(106, 103, 103);
+    font-size: large;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Mn ul li {
+    padding-top: 8px;
+}
+
+.Mn ul a:hover {
+    color: black;
+}
+
+.Cp ul {
+    list-style: none;
+}
+
+.Cp ul a {
+    text-decoration: none;
+    color: rgb(106, 103, 103);
+    font-size: large;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Cp ul li {
+    padding-top: 8px;
+}
+
+.Cp ul a:hover {
+    color: black;
+}
+
+.SM ul {
+    list-style: none;
+}
+
+.SM ul li   a:hover {
+    color: black;
+    transform: scale(2);
+}
+
+.SM ul li {
+    padding-top: 8px;
+}
+.TP p{
+    padding-left:65px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: "Josefin Sans", sans-serif;
+}
+.TP p a{
+    text-decoration: none;
+    color:  rgb(106, 103, 103);;
+
+}
+.TP p a:hover{
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+    
 }

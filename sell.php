@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <?php include 'hfile.php'; ?>
+        <?php include 'TEST2.php'; ?>
 
 
 
@@ -87,7 +87,7 @@
 
 
                     <div class="col-4 sm1">
-                        <img src="image/s2.png" class="img-fluid">
+                        <img src="IMAGES/s2.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                             case,
                             you're responsible for the home prep, marketing, showings, and negotiations. </p>
 
-                        <a href="post for sell.php"><button type="submit" class="btnn">Post Your Home For
+                        <a href="t1.php"><button type="submit" class="btnn">Post Your Home For
                                 Sell</button></a>
 
                         <div class="row mt-5">
@@ -136,7 +136,7 @@
 
 
                     <div class="col-4">
-                        <img src="image/s3.png" class="img-fluid">
+                        <img src="IMAGES/s3.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                 <div class="row">
 
                     <div class="col-4">
-                        <img src="image/s4.png" class="img-fluid">
+                        <img src="IMAGES/s4.png" class="img-fluid">
                     </div>
 
 
@@ -198,7 +198,7 @@
         <hr>
         <!--FOOTER-->
 
-        <?php include 'footer.html'; ?>
+        <?php include 'footer.php'; ?>
 
 </body>
 </html>

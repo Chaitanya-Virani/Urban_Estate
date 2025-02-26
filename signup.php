@@ -17,7 +17,7 @@
 
 <body>
 
-<?php include 'hfile.php'; ?>
+<?php include 'TEST.php'; ?>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the form is submitted
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $q = "INSERT INTO log_info VALUES ('$n', '$e', '$p')";
             if (mysqli_query($c, $q)) {
                 // Redirect to another page after successful insertion
-                header("Location: home.php");
+                header("Location: Signin.php");
                 exit; // Make sure to exit after the header redirection
             } else {
                 echo "Error: " . mysqli_error($c);

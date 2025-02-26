@@ -13,11 +13,11 @@
             integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="icon" href="image/Navy Blue Urban Modern Real Estate Logo (1).png" class="img-fluid">
+        <link rel="icon" href="IMAGES/Navy Blue Urban Modern Real Estate Logo (1).png" class="img-fluid">
     </head>
 
     <body>
-        <?php include 'hfile.php'; ?>
+        <?php include "TEST.php";?>
         <?php
     if (isset($_SESSION['status']))
     {
@@ -70,7 +70,7 @@
                     <div class="col-3 mage">
                         <button type="submit">
                             <a href="#">
-                                <img src="image/2.jpg" class="img-fluid">
+                                <img src="IMAGES/2.jpg" class="img-fluid">
 
                             </a>
 
@@ -80,7 +80,7 @@
                     <div class="col-3 mage">
                         <button type="submit">
                             <a href="#">
-                                <img src="image/2.jpg" class="img-fluid">
+                                <img src="IMAGES/2.jpg" class="img-fluid">
                             </a>
                         </button>
 
@@ -89,7 +89,7 @@
                     <div class="col-3 mage">
                         <button type="submit">
                             <a href="#">
-                                <img src="image/2.jpg" class="img-fluid">
+                                <img src="IMAGES/2.jpg" class="img-fluid">
                             </a>
                         </button>
 
@@ -98,7 +98,7 @@
                     <div class="col-3 mage">
                         <button type="submit">
                             <a href="#">
-                                <img src="image/2.jpg" class="img-fluid">
+                                <img src="IMAGES/2.jpg" class="img-fluid">
                             </a>
                         </button>
 
@@ -108,7 +108,7 @@
 
 
             </div>
-            <button type="button" class="vc">View More</button>
+            <a href = "card.php"><button type="button" class="vc">View More</button></a>
         </section>
         <hr>
         <!--SECTION $ 1S Text and 1S Images-->
@@ -134,7 +134,7 @@
                     </div>
 
                     <div class="col-6 p-0">
-                        <img src="image/3.jpg" class="img-fluid">
+                        <img src="IMAGES/3.jpg" class="img-fluid">
                     </div>
 
                 </div>
@@ -167,7 +167,7 @@
                     </div>
 
                     <div class="col-6 p-0">
-                        <img src="image/4.jpg" class="img-fluid">
+                        <img src="IMAGES/4.jpg" class="img-fluid">
                     </div>
 
                 </div>
@@ -198,7 +198,7 @@
                     </div>
 
                     <div class="col-6 p-0">
-                        <img src="image/5 1.png" class="img-fluid">
+                        <img src="IMAGES/5 1.png" class="img-fluid">
                     </div>
 
                 </div>
@@ -208,7 +208,7 @@
             <div class="container mt-1">
                 <div class="row mb-5">
                     <div class="col-6 p-0">
-                        <img src="image/5 1.png" class="img-fluid">
+                        <img src="IMAGES/5 1.png" class="img-fluid">
                     </div>
 
                     <div class="col-6 Renting">
